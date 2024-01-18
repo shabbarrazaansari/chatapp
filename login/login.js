@@ -15,6 +15,8 @@
 
         if(response.status===200){
             alert('login successfull');
+            localStorage.setItem('token',response.data.token)
+            window.location.href = '../appview/appview.html';
 
         }
         else{

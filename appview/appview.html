@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend chat view</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="appview.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJlDfm9LToMvDH50on5QF5KsT5bPbFqG" crossorigin="anonymous"> -->
+
+</head>
+<body>
+    <div class="mainbox">
+        <div id="joined"></div>
+        <div class="messagebox" >
+            <label for="message"></label>
+            <input type="text" name="msg" id="message">
+            <div id="allMessage"></div>
+            <div class="btn1" >
+                <button onclick="messageDetails(event)"><i class="fa-solid fa-forward-fast"></i></button>
+
+            </div>
+            
+        </div>
+    </div>
+    <script src="appview.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+</body>
+</html>

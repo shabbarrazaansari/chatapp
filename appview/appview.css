@@ -1,0 +1,30 @@
+.mainbox {
+    height: 100vh;
+    background: url(ChatApp\ creative\ logo.Creative\ Chat\ Logo\ .png);
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+
+.messagebox {
+    display: flex;
+    align-items: center;
+    align-self: last baseline;
+    margin-bottom: 0px;
+    width: 400px;
+    margin-right: 20px; /* Add margin to the right of the .messagebox */
+}
+
+input {
+    width: 100%; /* Set the input width to 100% of the .messagebox width */
+    padding: 10px; /* Add padding for better visual appearance */
+}
+
+.btn1 button {
+    width: 40px; /* Set the button width as needed */
+    height: 40px; /* Set the button height as needed */
+    padding: 5px; /* Add padding for better visual appearance */
+}

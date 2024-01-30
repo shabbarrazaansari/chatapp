@@ -11,8 +11,6 @@ body {
     background: url(ChatApp\ creative\ logo.Creative\ Chat\ Logo\ .png);
     background-size: cover;
 }
-
-
 .messagebox {
     position: absolute;
     left: 450px;
@@ -24,22 +22,19 @@ body {
     width: 400px;
     margin-right: 20px; /* Add margin to the right of the .messagebox */
 }
-
 input {
     width: 100%; /* Set the input width to 100% of the .messagebox width */
     padding: 10px; /* Add padding for better visual appearance */
     margin-right: 5px;
 }
-
 .btn1 button {
     width: 40px; /* Set the button width as needed */
     height: 40px; /* Set the button height as needed */
     padding: 5px; /* Add padding for better visual appearance */
 }
-
 .sentmessage {
     position: relative;
-    left: 600px;
+    left: 1200px;
     top: 200px;
     font-size: 25px;
     /* border: 2px solid black; */
@@ -51,15 +46,33 @@ input {
     position: absolute;
     left: 550px;
 }
-#group {
+#groupname {
     position: absolute;
-    left: 40px;
-    font-size: 40px;
+    left:550px;
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bold;
+}
+#info {
+    position: absolute;
+    left: 750px;
+    /* top: 20px; */
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+}
+#userslist {
+    position: absolute;
+    left:750px;
+    top: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    display: inline;
 }
 
-#groupadded {
-    position: absolute;
-    left: 40px;
-    top: 50px;
-    font-size: 40px;
+#searchbox {
+    width: 20%;
+
 }
